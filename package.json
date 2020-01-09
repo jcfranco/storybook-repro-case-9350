@@ -1,0 +1,24 @@
+{
+  "name": "storybook-issue-9350",
+  "version": "0.0.1",
+  "private": true,
+  "description": "repro case for https://github.com/storybookjs/storybook/issues/9350",
+  "scripts": {
+    "docs:preview": "start-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-backgrounds": "5.2.8",
+    "@storybook/addon-centered": "5.2.8",
+    "@storybook/addon-docs": "5.2.8",
+    "@storybook/addon-knobs": "5.2.8",
+    "@storybook/addon-notes": "5.2.8",
+    "@storybook/html": "5.2.8",
+    "@types/node": "13.1.6",
+    "@types/webpack": "4.41.1",
+    "awesome-typescript-loader": "5.2.1",
+    "babel-loader": "8.0.6"
+  },
+  "dependencies": {
+    "typescript": "3.7.4"
+  }
+}
